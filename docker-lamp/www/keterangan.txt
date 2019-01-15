@@ -1,0 +1,7 @@
+keteranga: 
+1. menu edit dan proses edit masih gagal.
+2. menu yang dapat berjalan :
+   - index
+   - tambah data ('Create')
+   - pencarian ('Search')
+   - hapus data ('Delete')

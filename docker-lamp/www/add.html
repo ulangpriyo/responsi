@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>tambah data</title>
+<body>
+ <div>
+      <form action="add.php" method="post">
+      <table width="25%" border="0">
+      <h1>TAMBAH DATA</h1>
+        <tr>
+        <td>NO KTP</td>
+        <td><input type="text" name="ktp" placeholder="Masukkan no ktp"></td>
+        </tr>
+        <tr>
+          <td>NAMA</td>
+          <td><input type="text" name="nama" placeholder="Masukkan nama"></td>
+        </tr>
+        <tr>
+          <td>ALAMAT</td>
+          <td><input type="text" name="alamat" placeholder="Masukkan alamat"></td>
+        </tr>
+        <tr>
+          <td>TUJUAN</td>
+          <td><select name="tujuan">
+              <option value="surat-menyurat">surat menyurat</option>
+              <option value="pengurusan-berkas">pengurusan berkas</option>
+              <option value="lain-lain">lain-lain</option>
+        </tr> 
+        <tr>
+         <td></td>
+          <td><input type="submit" name="tambah" value="Tambah"></td>
+         </tr>
+        </table>
+       </form>
+ </div>
+</body>
+</html>
